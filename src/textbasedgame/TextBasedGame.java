@@ -52,8 +52,15 @@ public class TextBasedGame {
 
         switch (windowFrontRoof) {
             case (1):
-                System.out.println("\nThe door, got it.");
-                
+                System.out.println("\nThe door, got it.\n*Rattle*");
+                try {
+                    TimeUnit.SECONDS.sleep(2);
+                } catch (Exception e) {
+                }
+                System.out.println("Obviously, it's locked. Duh.\nYou're gonna have to either pick it or kick it down.\n");
+                sou
+                int pickOrKick = scan.nextInt();
+
             case (2):
                 System.out.println("");
             case (3):
